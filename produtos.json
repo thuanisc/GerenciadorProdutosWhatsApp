@@ -1,0 +1,17 @@
+[
+    {
+        "nome": "📩 Taxa de serviço WhatsApp",
+        "preco": 2.5,
+        "obs": ""
+    },
+    {
+        "nome": "🖨 Impressão texto",
+        "preco": 0.5,
+        "obs": ""
+    },
+    {
+        "nome": "🖼 Papel Fotográfico 180g A4",
+        "preco": 5.0,
+        "obs": "Numa folha A4 cabem 1, 2, 4 até 9 fotos!"
+    }
+]
