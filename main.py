@@ -3,10 +3,10 @@ import tkinter as tk
 from produtos import abrir_cadastro
 from orcamento import abrir_orcamento
 
-class LanHouseApp:
+class GerenciadorApp:
     def __init__(self, master):
         self.master = master
-        self.master.title("Sistema MqC - Lan House")
+        self.master.title("EMPRESA")
         self.master.geometry("400x300")
         self.criar_interface()
 
@@ -18,5 +18,5 @@ class LanHouseApp:
 
 if __name__ == '__main__':
     root = tk.Tk()
-    app = LanHouseApp(root)
+    app = GerenciadorApp(root)
     root.mainloop()
