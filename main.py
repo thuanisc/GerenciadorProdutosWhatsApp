@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
 from produtos import abrir_cadastro
+from clientes import abrir_cadastro_clientes
 from orcamento import abrir_orcamento
 
 class GerenciadorApp:
@@ -13,6 +14,7 @@ class GerenciadorApp:
     def criar_interface(self):
         tk.Label(self.master, text="Bem-vindo ao Sistema MQ", font=("Helvetica", 14, "bold")).pack(pady=20)
         tk.Button(self.master, text="Cadastro de Produtos", command=lambda: abrir_cadastro(self.master)).pack(pady=5, fill='x', padx=50)
+        tk.Button(self.master, text="Cadastro de Clientes", command=lambda: abrir_cadastro_clientes(self.master)).pack(pady=5, fill='x', padx=50)
         tk.Button(self.master, text="Novo Orçamento / Impressão", command=lambda: abrir_orcamento(self.master)).pack(pady=5, fill='x', padx=50)
         tk.Button(self.master, text="Sair", command=self.master.quit).pack(pady=20, fill='x', padx=50)
 
