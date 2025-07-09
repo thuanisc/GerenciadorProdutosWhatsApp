@@ -6,9 +6,10 @@ Um sistema simples e eficiente para gerenciar produtos e compartilhar informaç�
 - Geração automática de texto formatado para WhatsApp
 
 🔒 Login simples (usuário/senha)
-Usuário teste: admin
-Senha: 1234
+- Usuário teste: admin
+- Senha: 1234
 
 ✅ Interface limpa e fácil de usar
 
-🚀 Tecnologias Utilizadas: Python
+🚀 Tecnologias Utilizadas: Python/Plugin pipe
+
